@@ -1,0 +1,24 @@
+{
+  "name": "prod-realtime-queue-223",
+  "version": "1.0.0",
+  "description": "📊 Hybrid Stream for analytics",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "analytics",
+    "typescript",
+    "ai",
+    "infrastructure"
+  ],
+  "author": "yksanjo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yksanjo/prod-realtime-queue-223.git"
+  }
+}
