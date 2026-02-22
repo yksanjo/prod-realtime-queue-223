@@ -1,71 +1,84 @@
 # prod-realtime-queue-223
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/yksanjo/prod-realtime-queue-223/blob/main/LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/yksanjo/prod-realtime-queue-223/releases)
-[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/yksanjo/prod-realtime-queue-223)
-[![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/yksanjo/prod-realtime-queue-223/blob/main/CONTRIBUTING.md)
-[![Issues](https://img.shields.io/github/issues/yksanjo/prod-realtime-queue-223)](https://github.com/yksanjo/prod-realtime-queue-223/issues)
-[![Stars](https://img.shields.io/github/stars/yksanjo/prod-realtime-queue-223?style=social)](https://github.com/yksanjo/prod-realtime-queue-223/stargazers)
+## Detailed Description
 
-> 📊 Hybrid Stream for analytics
+prod-realtime-queue-223 is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-**Category:** Analytics | **Stack:** typescript
+## Problem Statement
 
-## ✨ Features
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-- ✅ CLI interface
-- ✅ Audit logging
-- ✅ GraphQL API
-- ✅ Version control
-- ✅ Blue-green deployments
+## Solution Overview
 
-## 📦 Installation
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
-```bash
-git clone https://github.com/yksanjo/prod-realtime-queue-223.git
-cd prod-realtime-queue-223
-npm install
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
 ```
 
-## 🚀 Quick Start
+## Getting Started
 
-```javascript
-import { init } from './src/index.js';
+### Prerequisites
 
-const app = init();
-app.start();
-```
+- Git
+- Project runtime/toolchain for this repo
 
-## 📖 API
-
-### `init()`
-
-Initialize the application.
-
-**Returns:** `Object` Application instance
-
-### `start()`
-
-Start the service.
-
-## ⚙️ Configuration
-
-| Option | Default | Description |
-|--------|---------|-------------|
-| `port` | 3000 | Service port |
-| `host` | localhost | Bind address |
-| `debug` | false | Debug mode |
-
-## 🧪 Testing
+### Local Setup
 
 ```bash
+npm ci
+npm run lint
 npm test
+npm run build
 ```
 
-## 🤝 Contributing
+## Usage
 
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md)
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-## 📄 License
+## Quality Standards
 
-MIT © 2026 yksanjo
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
+
+## Security
+
+See `SECURITY.md` for responsible disclosure and handling guidelines.
+
+## Contributing
+
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
+
+## License
+
+This project is released under the MIT License.
